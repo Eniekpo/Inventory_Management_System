@@ -137,7 +137,7 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 ### 5. Start the Background Scheduler Daemon
 ```bash
-python3 -m scripts.run_scheduler
+python -m scripts.run_scheduler
 ```
 
 ### 6. Launch the Streamlit Dashboard

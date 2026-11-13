@@ -15,8 +15,10 @@ import streamlit as st
 from sqlalchemy import desc, func, select
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+PROJECT_ROOT_STR = str(PROJECT_ROOT)
+if PROJECT_ROOT_STR in sys.path:
+    sys.path.remove(PROJECT_ROOT_STR)
+sys.path.insert(0, PROJECT_ROOT_STR)
 
 from app.core.config import get_settings
 from app.core.database import SessionLocal, init_db
