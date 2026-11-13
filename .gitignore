@@ -1,0 +1,32 @@
+# Environment & Secrets
+.env
+.env.local
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Databases & runtime logs
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+data/watch/processed/
+data/watch/failed/
+
+# OS files
+.DS_Store
+Thumbsumbs.db
+

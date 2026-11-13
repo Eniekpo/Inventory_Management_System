@@ -1,0 +1,6 @@
+sku,name,category,unit_cost,reorder_point,reorder_quantity,supplier
+ELC-052,Valid Industrial Sensor,Electronics,55.00,10,30,GlobalTech Distributors
+,Missing SKU Item,Electronics,25.00,10,20,GlobalTech Distributors
+ELC-053,Negative Cost Item,Electronics,-12.50,10,20,GlobalTech Distributors
+ELC-054,Zero Reorder Qty Item,Electronics,19.00,10,0,GlobalTech Distributors
+

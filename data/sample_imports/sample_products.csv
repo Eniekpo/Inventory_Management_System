@@ -1,0 +1,5 @@
+sku,name,category,unit_cost,reorder_point,reorder_quantity,supplier
+ELC-001,Industrial IoT Gateway v4,Electronics,185.00,15,45,Apex Components Ltd
+ELC-051,Gigabit Media Converter SFP,Electronics,42.50,20,60,Apex Components Ltd
+IND-051,Pneumatic Cylinder 50mm Bore,Industrial Hardware,79.00,12,35,PrimeLine Industrial
+

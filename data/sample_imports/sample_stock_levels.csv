@@ -1,0 +1,4 @@
+sku,warehouse_code,quantity_on_hand,quantity_reserved
+ELC-051,WH-EAST,65,5
+IND-051,WH-CENTRAL,40,2
+
